@@ -1,0 +1,1411 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.16f1c1 (2f3f1b3bde89) revision 3096347'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'zh' Physical Memory: 15716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/TheGreatLearning5/Software_design/THU-escaping
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+64166
+Successfully changed project path to: D:/TheGreatLearning5/Software_design/THU-escaping
+D:/TheGreatLearning5/Software_design/THU-escaping
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31936] Host "[IP] 169.254.132.0 [Port] 0 [Flags] 2 [Guid] 3207786705 [EditorId] 3207786705 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UF9109I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31936] Host "[IP] 169.254.132.0 [Port] 0 [Flags] 2 [Guid] 3207786705 [EditorId] 3207786705 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UF9109I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 13.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1c1 (2f3f1b3bde89)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/TheGreatLearning5/Software_design/THU-escaping/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T600 Laptop GPU (ID=0x1fba)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010337 seconds.
+- Loaded All Assemblies, in  0.318 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 561ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (246ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.545 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 1023ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (58.5 KB). Loaded Objects now: 3621.
+Memory consumption went from 140.2 MB to 140.1 MB.
+Total: 2.840100 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.326300 ms  DeleteObjects: 0.165900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23408.830550 seconds.
+  path: Assets/Scenes/JP_School library/Mesh/Materials/book03_2_2.mat
+  artifactKey: Guid(3afe03cd2f534cf49ba45a69268bc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Mesh/Materials/book03_2_2.mat using Guid(3afe03cd2f534cf49ba45a69268bc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e01d5df47a033182a376735b1915e58') in 0.124801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/JP_School library/Mesh/Materials/book03_2_sample2.mat
+  artifactKey: Guid(ae4d65fb0d52ca343ad3cb8459d3c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Mesh/Materials/book03_2_sample2.mat using Guid(ae4d65fb0d52ca343ad3cb8459d3c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f72fde1232aa39c7bd04a7e035e40ed') in 0.047777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (340ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3665.
+Memory consumption went from 142.6 MB to 142.5 MB.
+Total: 2.662400 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.257300 ms  DeleteObjects: 0.047800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.417 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.828 seconds
+Domain Reload Profiling: 1241ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (828ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3668.
+Memory consumption went from 144.8 MB to 144.8 MB.
+Total: 3.107600 ms (FindLiveObjects: 0.415600 ms CreateObjectMapping: 0.177800 ms MarkObjects: 2.454900 ms  DeleteObjects: 0.058200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 569.364437 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book01_3_1_1.prefab
+  artifactKey: Guid(fae5b40bc5c7dcb49a2f255b21b19ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book01_3_1_1.prefab using Guid(fae5b40bc5c7dcb49a2f255b21b19ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c408c41ce091f93b3c91916c43d530') in 0.069251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book01_3_1_sample.prefab
+  artifactKey: Guid(357bed89119353c4994e6e7591662a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book01_3_1_sample.prefab using Guid(357bed89119353c4994e6e7591662a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1902f1b808353a04e2d297f729a3e2d1') in 0.016214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.026436 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book01_3_2_1.prefab
+  artifactKey: Guid(3c23004571a81fc4ebdf27d77d1744e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book01_3_2_1.prefab using Guid(3c23004571a81fc4ebdf27d77d1744e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef31a15ca72326ccac9775e659192ab') in 0.013759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.404759 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book02_1_1.prefab
+  artifactKey: Guid(e8b0365126e727c47a8100fc362c642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book02_1_1.prefab using Guid(e8b0365126e727c47a8100fc362c642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8029765a16052b3987c850a56b11a5f6') in 0.014467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book02_1_3.prefab
+  artifactKey: Guid(22928ca0c810ad24eb60f58bcc44d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book02_1_3.prefab using Guid(22928ca0c810ad24eb60f58bcc44d0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2336df126ee0c31129d06076094400b') in 0.014742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.027051 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book02_2_1.prefab
+  artifactKey: Guid(173c2f65849a6ae46bb06c23b75720bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book02_2_1.prefab using Guid(173c2f65849a6ae46bb06c23b75720bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769151fd4abcd42c6896968a619deccf') in 0.012581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.032912 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_1_1.prefab
+  artifactKey: Guid(7d5c38327deaaca44962982c04e62598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_1_1.prefab using Guid(7d5c38327deaaca44962982c04e62598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123d1316231134e71b89927bbee9bf9c') in 0.013248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_1_sample.prefab
+  artifactKey: Guid(5a21330dff3ce694cbf6891510ba2118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_1_sample.prefab using Guid(5a21330dff3ce694cbf6891510ba2118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475a944ebe392a8f2d8df06f65e18221') in 0.015597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.335874 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_2_1.prefab
+  artifactKey: Guid(a9e9bc6c26a1ae4409a772fd6979355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_2_1.prefab using Guid(a9e9bc6c26a1ae4409a772fd6979355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5a421ef8dec62b7cfc60f20bae96f8') in 0.014709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_2_sample1.prefab
+  artifactKey: Guid(3a08ef24ce681664e9e6db6b0efba099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_2_sample1.prefab using Guid(3a08ef24ce681664e9e6db6b0efba099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bf864780afad6a00270930f8dedc37') in 0.014772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.311362 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_2_sample2.prefab
+  artifactKey: Guid(09cd6d52834c1954eb365ce1e88f08bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_2_sample2.prefab using Guid(09cd6d52834c1954eb365ce1e88f08bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6867b3247db52dc236a7bea4d89d59') in 0.014145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.078474 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_3_sample1.prefab
+  artifactKey: Guid(675dd3c743f40a044a7d9ea68fa07f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_3_sample1.prefab using Guid(675dd3c743f40a044a7d9ea68fa07f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa37dabfa8e46fa7fb6bba81b13ce088') in 0.014445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.389469 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_4_2.prefab
+  artifactKey: Guid(67f885d11d5dfdb478a333b362a2276d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_4_2.prefab using Guid(67f885d11d5dfdb478a333b362a2276d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4219b9186d66a0cef50e609192437c') in 0.015508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.445853 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_5_1.prefab
+  artifactKey: Guid(c3cb7a26800159f4ea393bc9a806a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_5_1.prefab using Guid(c3cb7a26800159f4ea393bc9a806a6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd45fd348996284388c23cd99940142') in 0.014594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_5_sample1.prefab
+  artifactKey: Guid(a3d9173495b072f4ea02d22a1d2633ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_5_sample1.prefab using Guid(a3d9173495b072f4ea02d22a1d2633ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16fde5847cce76da24a64bcdd32f5da') in 0.015801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.406562 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_5_sample2.prefab
+  artifactKey: Guid(5236c89383ccb6643bed4631e79c234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_5_sample2.prefab using Guid(5236c89383ccb6643bed4631e79c234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fc45a05027523fcb90e9c4e44fe160') in 0.014473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_6_2.prefab
+  artifactKey: Guid(8e9d291e658c9dd498211ab79f1ebcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_6_2.prefab using Guid(8e9d291e658c9dd498211ab79f1ebcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86be2ec390acf5f42a638e1c466b852') in 0.014307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.248994 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_6_sample1.prefab
+  artifactKey: Guid(98f6738c626725f41a014ede84f625bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_6_sample1.prefab using Guid(98f6738c626725f41a014ede84f625bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8020cae2c2e8f97030c46f3979aea73d') in 0.014243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_7_1.prefab
+  artifactKey: Guid(3330a07b176421144b5795fd34c6cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_7_1.prefab using Guid(3330a07b176421144b5795fd34c6cead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7ce1e209550458159213d53151380d') in 0.012926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.336466 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_7_2.prefab
+  artifactKey: Guid(ccbd74218b2dc5c4a81bd175c87dfb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_7_2.prefab using Guid(ccbd74218b2dc5c4a81bd175c87dfb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04b5d0a462f046e4efdae33038f7620') in 0.014880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_7_sample2.prefab
+  artifactKey: Guid(2a7b6231333966e479acfbe7460a2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_7_sample2.prefab using Guid(2a7b6231333966e479acfbe7460a2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48904131adef53302a1993466d815f1') in 0.015654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.028257 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_8_1.prefab
+  artifactKey: Guid(15f51fd958dc1b949a0c2a05a6a267cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_8_1.prefab using Guid(15f51fd958dc1b949a0c2a05a6a267cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635523e8bf247f29f925af12b7747b2d') in 0.013973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1_8_sample.prefab
+  artifactKey: Guid(72531cf1ec451ed42a1cbdae1f35f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1_8_sample.prefab using Guid(72531cf1ec451ed42a1cbdae1f35f5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ed0a531e0af01e06d34f15da7174b1') in 0.015919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.275257 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_1_1.prefab
+  artifactKey: Guid(cba75824f139fbe419eb35f36edca618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_1_1.prefab using Guid(cba75824f139fbe419eb35f36edca618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899088fdf463de5360c93224a870c783') in 0.015489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_1_sample.prefab
+  artifactKey: Guid(d46657069dc0c0f439f8669a786251de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_1_sample.prefab using Guid(d46657069dc0c0f439f8669a786251de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8a17d11907ace67f134feb6297ffcf') in 0.036015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006995 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_2_1.prefab
+  artifactKey: Guid(d38fc07849fac1e4dbc291a395de9f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_2_1.prefab using Guid(d38fc07849fac1e4dbc291a395de9f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b0b313b88e113387df428bd5b032b8') in 0.018048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_2_sample1.prefab
+  artifactKey: Guid(e29bae6ec3dec0440b8335ac95969dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_2_sample1.prefab using Guid(e29bae6ec3dec0440b8335ac95969dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb958044b99c7146f1db21fb84d1c7f') in 0.050452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.234619 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_2_sample2.prefab
+  artifactKey: Guid(c7bd515f05cfa9649aa44b4de7e62310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_2_sample2.prefab using Guid(c7bd515f05cfa9649aa44b4de7e62310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221f09a291f73cd7e1a06e22cf0c49df') in 0.013876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_3_2.prefab
+  artifactKey: Guid(9053598c4ea087646a73c2996efee4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_3_2.prefab using Guid(9053598c4ea087646a73c2996efee4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d0fbcf3d3d858e91caf3093d1fa853') in 0.014195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.017892 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_3_sample1.prefab
+  artifactKey: Guid(f2495814a65884b4c8e6f6605636e54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_3_sample1.prefab using Guid(f2495814a65884b4c8e6f6605636e54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98119b2703211d2d02db7b9ec41e1820') in 0.012932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.333668 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_4_2.prefab
+  artifactKey: Guid(bf7915cca35c11d4b96f42ef670b7b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_4_2.prefab using Guid(bf7915cca35c11d4b96f42ef670b7b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c759c491ddb8921399e3bc308cd4dfd') in 0.014131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.015124 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_5_1.prefab
+  artifactKey: Guid(c484919ede9bacb4f840a929db6fe34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_5_1.prefab using Guid(c484919ede9bacb4f840a929db6fe34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8922f58afc21210d28453f45f0fce34') in 0.012896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.049514 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_5_sample2.prefab
+  artifactKey: Guid(73010ccf73818e249942eb7d0495e49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_5_sample2.prefab using Guid(73010ccf73818e249942eb7d0495e49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a5868932c9d7e3886a89e17c4e4c1a') in 0.013232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_6_2.prefab
+  artifactKey: Guid(df0cfcfa1643e8646a4a8dfc74a60159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_6_2.prefab using Guid(df0cfcfa1643e8646a4a8dfc74a60159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12189613294a4e47ae6684f67f6f8b89') in 0.013498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.304169 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_6_sample1.prefab
+  artifactKey: Guid(0b87b2f06a14cf7439c382a3dd12eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_6_sample1.prefab using Guid(0b87b2f06a14cf7439c382a3dd12eb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849e1893bab29bc86c8e13359ba3b83d') in 0.013216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_7_1.prefab
+  artifactKey: Guid(fbf7c77015f4f7e42ae7296d6ad52c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_7_1.prefab using Guid(fbf7c77015f4f7e42ae7296d6ad52c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9045e5181fefde207c9c336accba833') in 0.015591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_7_sample2.prefab
+  artifactKey: Guid(e308f4ad56568e0449550a4d267c0802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_7_sample2.prefab using Guid(e308f4ad56568e0449550a4d267c0802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444bff7a1b94841aa033d69934d66bc9') in 0.011559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.040960 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_1L_8_1.prefab
+  artifactKey: Guid(9502ca0bce272e4449d73d598947ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_1L_8_1.prefab using Guid(9502ca0bce272e4449d73d598947ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e894d059217e2f67a1620ccf9049b4a') in 0.013587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.286200 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_1_1.prefab
+  artifactKey: Guid(8d8d60f8832b9244596cc7b650042377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_1_1.prefab using Guid(8d8d60f8832b9244596cc7b650042377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d98479ab1b29d6348f180bc83e296e') in 0.014800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.033100 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_2_1.prefab
+  artifactKey: Guid(6175f4ad6d1a87146a3d2664cb7312ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_2_1.prefab using Guid(6175f4ad6d1a87146a3d2664cb7312ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1742412a6f7e3604efee50549a45b60') in 0.012925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_2_sample1.prefab
+  artifactKey: Guid(d1a3111de8d0031418e6aceb402b95fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_2_sample1.prefab using Guid(d1a3111de8d0031418e6aceb402b95fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f98c2cfdadea293135d306f4976704') in 0.013060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_3_1.prefab
+  artifactKey: Guid(08b9b60b7659dc44ab600bd5f6e5012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_3_1.prefab using Guid(08b9b60b7659dc44ab600bd5f6e5012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2592843eb677484ae427d987e3301b') in 0.013171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.026961 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_3_sample1.prefab
+  artifactKey: Guid(fa7167a20996ecb41b456c86a911b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_3_sample1.prefab using Guid(fa7167a20996ecb41b456c86a911b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a5ae5b0081d7bba981915a5fbf23b4') in 0.013387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.271696 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_4_2.prefab
+  artifactKey: Guid(b2a28540bc616ae47be8a596295f49b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_4_2.prefab using Guid(b2a28540bc616ae47be8a596295f49b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605e35710229ee239f23a16ce092b553') in 0.015393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.034058 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_5_1.prefab
+  artifactKey: Guid(e506e828c749ab84fb1950b1e658194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_5_1.prefab using Guid(e506e828c749ab84fb1950b1e658194f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114814ffd43702982974368c112d6740') in 0.018044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.003175 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_5_sample2.prefab
+  artifactKey: Guid(2dde68a1a5f59c64baccc5c72a5580f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_5_sample2.prefab using Guid(2dde68a1a5f59c64baccc5c72a5580f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe7718f6c8af998a2e4eb6038563ac') in 0.037916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_6_sample1.prefab
+  artifactKey: Guid(a9d6bad2862eabc41b3095d5107579d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_6_sample1.prefab using Guid(a9d6bad2862eabc41b3095d5107579d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9d938257807d0b71d8f7ae70b84e12') in 0.078477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.217957 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_7_2.prefab
+  artifactKey: Guid(e9fdd2d04e9be7a438fe81f8f1154edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_7_2.prefab using Guid(e9fdd2d04e9be7a438fe81f8f1154edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973b4bdcf5fa4dbad274e3dec6d9f16d') in 0.016765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_7_sample2.prefab
+  artifactKey: Guid(3689214af8d9a9d4f8ec0d2fdd49ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_7_sample2.prefab using Guid(3689214af8d9a9d4f8ec0d2fdd49ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90105f3f80ee4b023446a9815b656e19') in 0.014158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2_8_2.prefab
+  artifactKey: Guid(6b028c8b8c58f4747a8f5050da84c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2_8_2.prefab using Guid(6b028c8b8c58f4747a8f5050da84c0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e33596f8c91d0c25b7847b9e97769d8') in 0.013174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.030470 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_1_1.prefab
+  artifactKey: Guid(00fb53508175132488bae7a8f5909a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_1_1.prefab using Guid(00fb53508175132488bae7a8f5909a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17ac2171851b15ad9be8796c6fcbdd9') in 0.013578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_2_1.prefab
+  artifactKey: Guid(52ada26f9c970ba4dac70e497b32900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_2_1.prefab using Guid(52ada26f9c970ba4dac70e497b32900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e3f2deb9c440e7d5f0efdfb57cc64d') in 0.012887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_2_2.prefab
+  artifactKey: Guid(60bcef9e74ffb6b4c98eaaf2ee183a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_2_2.prefab using Guid(60bcef9e74ffb6b4c98eaaf2ee183a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf57c051b33544e5982a0b9227e7244') in 0.013324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.308648 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_2_sample2.prefab
+  artifactKey: Guid(6271d7c763ba6f1448b1c14f2dd8671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_2_sample2.prefab using Guid(6271d7c763ba6f1448b1c14f2dd8671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6c8ded22a5e18ecf17cff2d52f0f31') in 0.013640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_4_1.prefab
+  artifactKey: Guid(3baa266a0b9334b4e98ac095238f48de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_4_1.prefab using Guid(3baa266a0b9334b4e98ac095238f48de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41026ad563d2fd368fe7f1854629028b') in 0.015129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_3_sample1.prefab
+  artifactKey: Guid(edb6ace7d8b0cdd45970d4c943bdaa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_3_sample1.prefab using Guid(edb6ace7d8b0cdd45970d4c943bdaa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912040a4ebf175ee86cc5832cf353a2b') in 0.012981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.011851 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_4_2.prefab
+  artifactKey: Guid(2e79d4a88a41b854495db9e7b374c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_4_2.prefab using Guid(2e79d4a88a41b854495db9e7b374c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a21fb1c0f9dfed8f8a5ab7f8698786') in 0.013758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_4_sample2.prefab
+  artifactKey: Guid(286a3b6e4f468574a9088c3a4bad9dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_4_sample2.prefab using Guid(286a3b6e4f468574a9088c3a4bad9dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ce5816d20bdb490bf20ab2d44c7daa') in 0.014053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_5_sample1.prefab
+  artifactKey: Guid(8394962e59e373e49b3d90fd7eca1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_5_sample1.prefab using Guid(8394962e59e373e49b3d90fd7eca1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f5075512d19c42f6b3d3d9c2903fcd') in 0.014058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.026764 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_5_sample2.prefab
+  artifactKey: Guid(405b586cc3c84cd48b4aa409f6e2f6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_5_sample2.prefab using Guid(405b586cc3c84cd48b4aa409f6e2f6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c2ad354a08421ca9f0b9ba163c8229') in 0.014473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.300345 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_6_sample1.prefab
+  artifactKey: Guid(668462b15aa4b444eb0e6b37a0330746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_6_sample1.prefab using Guid(668462b15aa4b444eb0e6b37a0330746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0739733ad96c5d48895cc2a887ea84') in 0.013879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_7_sample2.prefab
+  artifactKey: Guid(035d5bea277676248a0da9bf7b86dbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_7_sample2.prefab using Guid(035d5bea277676248a0da9bf7b86dbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a15e564244b56b915fac056ed9c9bcf') in 0.013338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_7_2.prefab
+  artifactKey: Guid(7e6396efb24dafe429f9d427ab16995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_7_2.prefab using Guid(7e6396efb24dafe429f9d427ab16995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9a2d824dba9450b2f30b462e23c2c') in 0.013899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.009050 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_2L_8_1.prefab
+  artifactKey: Guid(47168972d6c45314eb5d7f2f488c80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_2L_8_1.prefab using Guid(47168972d6c45314eb5d7f2f488c80c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730083a92e928b8d6b461c008feaeaac') in 0.014483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.009541 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_1_1.prefab
+  artifactKey: Guid(cef4acf29bb092e469d942e1ae738179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_1_1.prefab using Guid(cef4acf29bb092e469d942e1ae738179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1f9aa78e8736a439c1a349b14e028c') in 0.014484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_1_sample.prefab
+  artifactKey: Guid(aa4bf274641225a4284f9a73f160c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_1_sample.prefab using Guid(aa4bf274641225a4284f9a73f160c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ebb3f800233d310c9ba27650f0e623') in 0.015563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.308659 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_2_1.prefab
+  artifactKey: Guid(bda00ee92b8bf034cb770569a7a416f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_2_1.prefab using Guid(bda00ee92b8bf034cb770569a7a416f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c687f2e85e76ec89d1604d1ecb01935') in 0.014902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_3_2.prefab
+  artifactKey: Guid(abe5c6d4bf40dd3479f42c6938125515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_3_2.prefab using Guid(abe5c6d4bf40dd3479f42c6938125515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68a004f6a99ee2d5d7fd9daf21f4fc3') in 0.017572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_2_sample1.prefab
+  artifactKey: Guid(8a4276240651cd24995a5ff563bd9542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_2_sample1.prefab using Guid(8a4276240651cd24995a5ff563bd9542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130dfb135ccb2c2ccfcebe497e7e0055') in 0.018847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.018169 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_3_sample1.prefab
+  artifactKey: Guid(2a24b9c2d89f4114b97a6d3819a929da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_3_sample1.prefab using Guid(2a24b9c2d89f4114b97a6d3819a929da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8144441c9f60f1c8507ba0b492116303') in 0.014310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.015344 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_4_2.prefab
+  artifactKey: Guid(edbcd9a22611ffb4685f99845b8e87b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_4_2.prefab using Guid(edbcd9a22611ffb4685f99845b8e87b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf55bf94fd6d3a04c3f47e2f5578345') in 0.014048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.334874 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_5_1.prefab
+  artifactKey: Guid(c7a243cf43288c942964b92cf3f73327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_5_1.prefab using Guid(c7a243cf43288c942964b92cf3f73327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfda52ea9f53ecbd0fea840965d8b4e') in 0.018129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_5_sample1.prefab
+  artifactKey: Guid(aeb7d08f55810b849911d4463f8a35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_5_sample1.prefab using Guid(aeb7d08f55810b849911d4463f8a35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b197eab67a56af680f5e283d947db4') in 0.038320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005028 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_5_sample2.prefab
+  artifactKey: Guid(5e493e863e2569a45bc07407f0cd9498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_5_sample2.prefab using Guid(5e493e863e2569a45bc07407f0cd9498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cc9831e74246d4e6537a5a04a3dcab') in 0.014864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_6_2.prefab
+  artifactKey: Guid(705fa9eb2f9b95b48857370dc62df0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_6_2.prefab using Guid(705fa9eb2f9b95b48857370dc62df0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf20b6d9071f58ef90b828d16f55530') in 0.017181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.020234 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_6_sample1.prefab
+  artifactKey: Guid(71633e260fdec56478859bed499be064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_6_sample1.prefab using Guid(71633e260fdec56478859bed499be064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eef4adbf93d45fcb32ccf4f03804893') in 0.012903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.465217 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_7_2.prefab
+  artifactKey: Guid(dff26de6045f6344ca0b66c0e7958993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_7_2.prefab using Guid(dff26de6045f6344ca0b66c0e7958993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd504c5f6d35e3165d851b49216271795') in 0.015011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001227 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_8_1.prefab
+  artifactKey: Guid(090ddf64026f0fb4eaf73ff49155a1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_8_1.prefab using Guid(090ddf64026f0fb4eaf73ff49155a1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb3ae2c5ad56be730f144408fefe088') in 0.014274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3_8_sample.prefab
+  artifactKey: Guid(87300f093d2de374b97404faa4cec5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3_8_sample.prefab using Guid(87300f093d2de374b97404faa4cec5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3408096924302df427a981e0c8491447') in 0.014334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.015224 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_1_1.prefab
+  artifactKey: Guid(d3ff50b8ad956ca4e8e9b0e8ec897388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_1_1.prefab using Guid(d3ff50b8ad956ca4e8e9b0e8ec897388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb9b46ad5be47f1e46a34da25cca573') in 0.014728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_1_sample.prefab
+  artifactKey: Guid(41f87a52831be77458552aae7a209bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_1_sample.prefab using Guid(41f87a52831be77458552aae7a209bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae529a3fffbb0a8fafb9aa7b2540a3e9') in 0.017255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_2_sample1.prefab
+  artifactKey: Guid(883d346fc30eb3945b1f72db41696a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_2_sample1.prefab using Guid(883d346fc30eb3945b1f72db41696a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0c9112c6aafa36bf4e0669a8ff266a') in 0.014483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.576346 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_2_sample2.prefab
+  artifactKey: Guid(498407acbbe55e046a7bb9b374fef34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_2_sample2.prefab using Guid(498407acbbe55e046a7bb9b374fef34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4d62e17f767072db47edcd648619ad') in 0.014305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_3_2.prefab
+  artifactKey: Guid(2f17d873358a3fb448e5eed682165af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_3_2.prefab using Guid(2f17d873358a3fb448e5eed682165af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec012c2c0db1adf5f090b951281ac036') in 0.016732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_3_sample2.prefab
+  artifactKey: Guid(bb6a9a7a1402f7942952fca2a32c88cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_3_sample2.prefab using Guid(bb6a9a7a1402f7942952fca2a32c88cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecc3dc11a57a7b8a5832bf11593dd0d') in 0.012556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_4_1.prefab
+  artifactKey: Guid(195f53165e1f28a4d8efccc9a059c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_4_1.prefab using Guid(195f53165e1f28a4d8efccc9a059c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf4ecb84a67ec86b872905ca4e9e6c9') in 0.014489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.018180 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_4_2.prefab
+  artifactKey: Guid(161307b2a10101045bf18ad66f7ee2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_4_2.prefab using Guid(161307b2a10101045bf18ad66f7ee2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea78d9bdcb5539c6e05bc64d4fe35f6') in 0.014045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_4_sample2.prefab
+  artifactKey: Guid(4a5d1b733510ee447b9fc6de469d0249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_4_sample2.prefab using Guid(4a5d1b733510ee447b9fc6de469d0249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d27cf5c158e2fd8b892880d89f46f19') in 0.015403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_5_2.prefab
+  artifactKey: Guid(e41af95cc2d4c2140b68cd3c60af7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_5_2.prefab using Guid(e41af95cc2d4c2140b68cd3c60af7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720fd66c07376eeefc947920cdfc59be') in 0.013830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.030367 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_5_sample2.prefab
+  artifactKey: Guid(8816ae35246fac14382f3af36473a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_5_sample2.prefab using Guid(8816ae35246fac14382f3af36473a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973ec536fbe8d575c461d4b99914681a') in 0.013810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.370077 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_6_sample1.prefab
+  artifactKey: Guid(902b80a9ff8cf074fbc3c0650c6b4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_6_sample1.prefab using Guid(902b80a9ff8cf074fbc3c0650c6b4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59b7d5acc64f7fae13dbc44741b87b8') in 0.014612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.015311 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_7_2.prefab
+  artifactKey: Guid(5e657e26dbba5144299c84bbf713ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_7_2.prefab using Guid(5e657e26dbba5144299c84bbf713ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff48a37f09f72b3d4761ec2bb5c4937') in 0.014555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_7_sample2.prefab
+  artifactKey: Guid(1c4959dfa431cf542b8456a1324be089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_7_sample2.prefab using Guid(1c4959dfa431cf542b8456a1324be089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5220fc5d1f2045b73f6c00301f40c2e') in 0.017634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book03_3L_8_sample.prefab
+  artifactKey: Guid(aef10eb6e0427d6478e0d430b0052921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book03_3L_8_sample.prefab using Guid(aef10eb6e0427d6478e0d430b0052921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a06535e50e5b8b23025cb8f299ac28') in 0.014637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008152 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_1_1.prefab
+  artifactKey: Guid(6192d837bd5f35b4cb40d343ab3a023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_1_1.prefab using Guid(6192d837bd5f35b4cb40d343ab3a023e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b250fc42e44395802cd71b955e031c') in 0.015431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_1_2.prefab
+  artifactKey: Guid(05a9901c5c26abc4a907116ba326a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_1_2.prefab using Guid(05a9901c5c26abc4a907116ba326a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb68d0731d69b420136d9e0581b52795') in 0.016636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_2_sample.prefab
+  artifactKey: Guid(e41a5fe39ba90eb439ecf5aac551e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_2_sample.prefab using Guid(e41a5fe39ba90eb439ecf5aac551e06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc105bc2cc26a5e5b224696dd964bbe') in 0.016151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.030176 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_3_1.prefab
+  artifactKey: Guid(5287ed7c0cfbd1b468616f86c672d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_3_1.prefab using Guid(5287ed7c0cfbd1b468616f86c672d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd110a901e2abd8768a2c23a4d834fda1') in 0.014375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.828024 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_4_2.prefab
+  artifactKey: Guid(937094f82ee6c5f4c86907211dd8921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_4_2.prefab using Guid(937094f82ee6c5f4c86907211dd8921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760614b98264b6701269557f7f3d8bf6') in 0.018493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_7_1.prefab
+  artifactKey: Guid(6de52dff22a1edd448aa9b3627eb4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_7_1.prefab using Guid(6de52dff22a1edd448aa9b3627eb4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34a1f3aa6f527e53d2f50a687598472') in 0.038413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_8_2.prefab
+  artifactKey: Guid(80e5676de74f92342b479485aa233c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_8_2.prefab using Guid(80e5676de74f92342b479485aa233c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5001dab685eb9b6c5175d55976e04b13') in 0.028375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_10_2.prefab
+  artifactKey: Guid(569c8280ff8c7ff4c8ad54c7835da7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_10_2.prefab using Guid(569c8280ff8c7ff4c8ad54c7835da7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ea37a73f6de45b0258f757b357771d') in 0.036758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_8_2.prefab
+  artifactKey: Guid(4f236a96e8dc7f9419149c4cf2c6e8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_8_2.prefab using Guid(4f236a96e8dc7f9419149c4cf2c6e8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec9d62148d39a28fe3511d7a516833c') in 0.040155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_2L_11_2.prefab
+  artifactKey: Guid(68dd18cf162362c4491cb6acd66f98f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_2L_11_2.prefab using Guid(68dd18cf162362c4491cb6acd66f98f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be2c4e3d08aa3ca2dea843645fe15e6') in 0.028669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_3L_11_1.prefab
+  artifactKey: Guid(b8ca67aad40851041996c9585468b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_3L_11_1.prefab using Guid(b8ca67aad40851041996c9585468b89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf80475235452d9ffe5dd018ac63f648') in 0.038147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/dummy01_3_sample.prefab
+  artifactKey: Guid(1012b53b351fe29448882799589aed15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/dummy01_3_sample.prefab using Guid(1012b53b351fe29448882799589aed15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6596965ca27387d10f768d22a7942c') in 0.032801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/plant01_blue2.prefab
+  artifactKey: Guid(ca53039c70c8d7c4e9ad0c50264ae52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/plant01_blue2.prefab using Guid(ca53039c70c8d7c4e9ad0c50264ae52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccbb374693fd8a91a1413068268d1ba') in 0.036351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/plant01_white1.prefab
+  artifactKey: Guid(f39aa613dd70b7740b56cace9dcd4d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/plant01_white1.prefab using Guid(f39aa613dd70b7740b56cace9dcd4d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c28b544fe90187ae68d2fe22dd4d0d7') in 0.019975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_9_sample.prefab
+  artifactKey: Guid(dd7bbf8d15c67864ca010447e4ce4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_9_sample.prefab using Guid(dd7bbf8d15c67864ca010447e4ce4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddaa21410b2a18a5d8f86fc50cb80a5') in 0.016096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/shelf01_7.prefab
+  artifactKey: Guid(a9e571440e4ab9a4482c70f38a982004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/shelf01_7.prefab using Guid(a9e571440e4ab9a4482c70f38a982004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e03729b79738ec39dc592b7f5979e3') in 0.015322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/poster01_2.prefab
+  artifactKey: Guid(13745fbb0da7b5c40be0536bc48b1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/poster01_2.prefab using Guid(13745fbb0da7b5c40be0536bc48b1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a5aa643db2453419e638dbe4b68ba6') in 0.014149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_10_2.prefab
+  artifactKey: Guid(d4688f059c87ad1448ad01e3dbe620a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_10_2.prefab using Guid(d4688f059c87ad1448ad01e3dbe620a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19da0e4c485de70b6c52d204172fa31') in 0.014817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_1_2.prefab
+  artifactKey: Guid(cce68c5a932032445b5d69389f7679c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_1_2.prefab using Guid(cce68c5a932032445b5d69389f7679c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19cb2a75762055f1cafa4d78fd3a952') in 0.016691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/plant01_pot1.prefab
+  artifactKey: Guid(a687cb859d3c44f4d858527d8534a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/plant01_pot1.prefab using Guid(a687cb859d3c44f4d858527d8534a970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5ef63c7bff8f9e61a5fc691f64c357') in 0.016674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/plant01_tray3.prefab
+  artifactKey: Guid(d04ff466eb3390747ac9cf4ab2ed0bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/plant01_tray3.prefab using Guid(d04ff466eb3390747ac9cf4ab2ed0bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a748ac79b94c7c912fd23777f8a0561') in 0.018258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/sign01_3.prefab
+  artifactKey: Guid(fe415a93b1d42794a9b130b9df2b8739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/sign01_3.prefab using Guid(fe415a93b1d42794a9b130b9df2b8739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaedc6fac6377f7388eb80d5be3ef5f') in 0.002149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/poster01_1.prefab
+  artifactKey: Guid(9da8b76a8b077f8469d19f12562ee8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/poster01_1.prefab using Guid(9da8b76a8b077f8469d19f12562ee8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7272ca4496cf7b7936f7fb348a08c877') in 0.014016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/library card01_5_2.prefab
+  artifactKey: Guid(b5ba6f9a160b400499e1e0e30b5e29d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/library card01_5_2.prefab using Guid(b5ba6f9a160b400499e1e0e30b5e29d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94deaeff643fb399132786f6f10d755e') in 0.015131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_9_1.prefab
+  artifactKey: Guid(50be41a2e949bab48a6360162212851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_9_1.prefab using Guid(50be41a2e949bab48a6360162212851b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc0b417a06af190cfbd736670ff05a') in 0.019043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_3L_11_2.prefab
+  artifactKey: Guid(e26db1fa0a2cd734bbe6c2bdbc85c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_3L_11_2.prefab using Guid(e26db1fa0a2cd734bbe6c2bdbc85c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baafa11d514e8ccd755af8ccee86312') in 0.015021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/sign01_4.prefab
+  artifactKey: Guid(1dd4f1a2ef510e944ae6bc43a9f62ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/sign01_4.prefab using Guid(1dd4f1a2ef510e944ae6bc43a9f62ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6d8324467b47838051a035979c3739') in 0.002292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/sign02_9.prefab
+  artifactKey: Guid(0f65298a0480ec243abee5069562498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/sign02_9.prefab using Guid(0f65298a0480ec243abee5069562498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe855605b88e7480a6407773d4f1686c') in 0.017503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_8_sample.prefab
+  artifactKey: Guid(5d4677c7648e6ec4a998041edc8698bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_8_sample.prefab using Guid(5d4677c7648e6ec4a998041edc8698bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b437c1c03abd3173d89beefa3811cb89') in 0.018198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/library card01_3_1.prefab
+  artifactKey: Guid(06d756192f36b5d439edd86b45a0d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/library card01_3_1.prefab using Guid(06d756192f36b5d439edd86b45a0d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01bfb4de7d7fef01684f0b3220eebc3') in 0.016691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_2L_10_1.prefab
+  artifactKey: Guid(9bae5674f7bf02d49be80ba574197c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_2L_10_1.prefab using Guid(9bae5674f7bf02d49be80ba574197c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88851922ccf311380d6c0a458d1d776') in 0.016858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_10_1.prefab
+  artifactKey: Guid(ec1bf30519eed23468bd854b0c1bb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_10_1.prefab using Guid(ec1bf30519eed23468bd854b0c1bb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1165f7e09d62e851f08eef2ff3ec90e2') in 0.016822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/library card01_3_2.prefab
+  artifactKey: Guid(046f0238b082c3b488d75177c4593704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/library card01_3_2.prefab using Guid(046f0238b082c3b488d75177c4593704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf91724adca11388b22cae1d2ac6c20') in 0.016626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/dummy01_4.prefab
+  artifactKey: Guid(e47bfaeb4054a5b4f904804841dc1aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/dummy01_4.prefab using Guid(e47bfaeb4054a5b4f904804841dc1aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0cb9f9ef615c351f2f379d450f037a') in 0.018895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/sign02_E.prefab
+  artifactKey: Guid(26be495c14898f74093a73e328d6c9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/sign02_E.prefab using Guid(26be495c14898f74093a73e328d6c9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071afc46f34847f136ab7b51ec92f474') in 0.014718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_3L_10_sample.prefab
+  artifactKey: Guid(43519f29ad8113a44b1bc0dea9d1adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_3L_10_sample.prefab using Guid(43519f29ad8113a44b1bc0dea9d1adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620573fc22d2de43feffc65af52ee90d') in 0.017059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_3L_8_2.prefab
+  artifactKey: Guid(d45bc4d56631095498e792702b7d1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_3L_8_2.prefab using Guid(d45bc4d56631095498e792702b7d1012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e866ff4f34bf58ff548ca79d8f0a3620') in 0.017311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_1_1.prefab
+  artifactKey: Guid(5403b84450d0fbb409dae0a9e960eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_1_1.prefab using Guid(5403b84450d0fbb409dae0a9e960eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fd0248f19fd4a16474d832d4bbfb6f') in 0.019052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1L_7_sample.prefab
+  artifactKey: Guid(5e790022ddb796b44b05c9bdf304077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1L_7_sample.prefab using Guid(5e790022ddb796b44b05c9bdf304077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da1dfdc88e675e949f3708a0d2c1a93') in 0.016096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_6_sample.prefab
+  artifactKey: Guid(5f9d89d692333d749b5634d5bce02c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_6_sample.prefab using Guid(5f9d89d692333d749b5634d5bce02c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbcada76f42044a3258951c6a46733f') in 0.018077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/JP_School library/Prefab/book04_1_8_sample.prefab
+  artifactKey: Guid(56d31505aa83b324494fe9ce8693de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JP_School library/Prefab/book04_1_8_sample.prefab using Guid(56d31505aa83b324494fe9ce8693de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b941bf4c787627f75529bb0ba23ab83') in 0.017210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
